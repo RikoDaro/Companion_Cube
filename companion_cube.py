@@ -117,7 +117,7 @@ cube.window.wm_attributes("-topmost", 1)
 
 label = tk.Label(cube.window, bd=0, bg='black')
 
-sprite = Image.open("C:\\Users\\riccardo.benetti\\Documents\\Codici python\\companion cube\\companion_cube_sprite_big.png")
+sprite = Image.open("companion_cube_sprite_big.png")
 sprite = sprite.convert('RGBA')
 tk_sprite = ImageTk.PhotoImage(sprite)
 
